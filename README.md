@@ -3,9 +3,13 @@ Python script to generate data for kalman filter , data include measurements fro
 
 Notes :
 • Al values are in meters
+
 • Data generation done for constant turn rate and constant velocity ( That can be changed )
+
 • turn rate = .55 radian/sec but it can be changed , same as linear velocity 
+
 • Lidar measurements error covariance matrix is [[.15 0] , [0 .15]]
+
 • Radar measurements error covariance matrix is [ [.3 0 0 ] , [0 .03 0] , [0 0 .3] ]
 
 -Running the code is so simple , just change the save path inside the code and run it 
